@@ -1,0 +1,30 @@
+{
+  "name": "cctp-examples",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CCTP transfer examples",
+  "main": "transfer.js",
+  "scripts": {
+    "depositForBurn": "tsx depositForBurn.ts",
+    "receiveMessage": "tsx receiveMessage.ts",
+    "bridge-v2": "tsx bridgeV2.ts",
+    "start": "tsx transfer.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.0",
+    "@solana/spl-token": "^0.4.1",
+    "@solana/web3.js": "^1.90.2",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "ethers": "^6.9.0",
+    "viem": "^2.7.1",
+    "zx": "^8.5.3"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.2.0",
+    "bn.js": "^5.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0"
+  }
+}

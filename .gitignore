@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build output
+target/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vendor directories
+vendor/
+**/vendor/
+
+.anchor
+.DS_Store
+target
+!examples/target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn/
+.yarnrc.yml
+!vendor/**/src/target
+.idea/
+vendor/
+vendor
+.anchor-localnet
+examples/node_modules
+vendor/
+devnetUser.json
